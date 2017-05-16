@@ -7,6 +7,10 @@ class Book
   end
 
   def to_s
+  	"#{@title}"
+  end
+
+  def info
     "#{@title} by #{@author}"
   end
 end
