@@ -2,7 +2,7 @@ require_relative 'person.rb'
 
 class Reader < Person
   attr_accessor :name, 
-                :eamil,
+                :email,
                 :city,
                 :street,
                 :house
@@ -16,7 +16,7 @@ class Reader < Person
   end
 
   def info
-    p "#{@name}"
+    p "#{name}"
     p "#{@email}"
     p "#{@city}"
     p "#{@street}"

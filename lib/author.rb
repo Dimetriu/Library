@@ -9,7 +9,6 @@ class Author < Person
   end
 
   def info
-    p "#{name}"
-    "#{@biography}"
+    "#{name}, #{@biography}"
   end
 end
