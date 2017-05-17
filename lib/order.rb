@@ -11,6 +11,10 @@ class Order
     @date   = date.strftime("%D")
   end
 
+  def to_s
+    "#{@reader} orders #{@book}"
+  end
+
   def info
     "#{@book} was ordered by #{@reader} on #{@date}"
   end

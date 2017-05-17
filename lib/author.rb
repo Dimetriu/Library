@@ -8,6 +8,10 @@ class Author < Person
     @biography = biography
   end
 
+  def to_s
+  	"#{name}"
+  end
+
   def info
     "#{name}, #{@biography}"
   end
