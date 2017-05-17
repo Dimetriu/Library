@@ -5,7 +5,7 @@ require_relative './lib/order.rb'
 require_relative './lib/reader.rb'
 require_relative './lib/person.rb'
 
-author1 = Author.new("Awesome author", "some bio").to_s
+author1 = Author.new("Awesome author", "some bio").info
 author2 = Author.new("Awesome author2", "some bio").to_s
 
 reader1 = Reader.new("John",
@@ -69,4 +69,4 @@ library.add_order(order3)
 library.add_order(order4)
 library.add_order(order5)
 
-p library.popular_book
+p library.bestsellers
