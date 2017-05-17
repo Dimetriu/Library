@@ -1,19 +1,13 @@
 require "yaml"
 
 class Library
-  @@library = []
-
   attr_accessor :books,
                 :orders,
                 :readers,
                 :authors
 
   def initialize
-    @books   = []
-    @orders  = []
-    @readers = []
-    @authors = []
-    @@library << @books << @orders << @readers << @authors
+    @@library = [@books = [], @orders = [], @readers = [], @authors = []]
   end
 
   def load
