@@ -60,4 +60,9 @@ Looks good but, what if we need to see what`s a popular book or bestsellers or W
     library.popular_book
     library.popular_reader
 
+And the last important thing is to load/save **Library** use method `load` or `save`:
+
+    library.load
+    library.save
+
 That`s it guys, enjoy it :gem:
